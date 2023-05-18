@@ -26,7 +26,7 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image:
 
-![img](Images/img.png)
+![linear-regression-plot](https://static.bc-edx.com/data/dl-1-2/m6/lms/img/linear-regression-plot.png)
 
 You should create the following plots:
   * Northern Hemisphere: Temperature vs. Latitude
@@ -49,7 +49,7 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` starter code and complete the following steps:
   1. Create a map that displays a point for every city in the `city_data_df` DataFrame as shown in the following image. The size of the point should be the humidity in each city.
   2. 
-![img](Images/img.png)
+![humidity_map ](https://static.bc-edx.com/data/dl-1-2/m6/lms/img/humidity_map.png)
 
   2. Narrow down the `city_data_df` DataFrame to find your ideal weather condition. For example:
     * A max temperature lower than 27 degrees but higher than 21
@@ -60,7 +60,7 @@ To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` st
   4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
   5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-![img](Images/img.png)
+![hotel_map ](https://static.bc-edx.com/data/dl-1-2/m6/lms/img/hotel_map.png)
  
 
 
